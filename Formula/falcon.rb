@@ -1,28 +1,28 @@
 class Falcon < Formula
   desc "Turn a repository into deterministic artifacts and a queryable code knowledge graph"
   homepage "https://github.com/SocialGouv/repo-falcon"
-  version "0.6.1"
+  version "0.6.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/SocialGouv/repo-falcon/releases/download/v0.6.1/falcon-darwin-arm64"
-      sha256 "5241f50122fa73c86c5674d509a0e4759b9a25a4119c4f11384171073bf6e0ab"
+      url "https://github.com/SocialGouv/repo-falcon/releases/download/v0.6.2/falcon-darwin-arm64"
+      sha256 "fcc4b4c2e14eeba1da2575bd78d180ef76fa1a8b1a9acb27da6636854a93cd1e"
     end
     on_intel do
-      url "https://github.com/SocialGouv/repo-falcon/releases/download/v0.6.1/falcon-darwin-amd64"
-      sha256 "2a8efb69c72004623fae064c9bbcb6df17010901754d9f25ba7a895976081339"
+      url "https://github.com/SocialGouv/repo-falcon/releases/download/v0.6.2/falcon-darwin-amd64"
+      sha256 "88eb4b62e1b340c725322ca386c0c8a4771e84a922d4448fe3a860cbac31923c"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/SocialGouv/repo-falcon/releases/download/v0.6.1/falcon-linux-arm64"
-      sha256 "8961b86d58b12b51590df477f65e5a5158b63a04d804d20992665618bef8cdbe"
+      url "https://github.com/SocialGouv/repo-falcon/releases/download/v0.6.2/falcon-linux-arm64"
+      sha256 "3727e5db7cc51e9a84ae4212029089a6c1ab0f2047765c968c9f10ddb71f5148"
     end
     on_intel do
-      url "https://github.com/SocialGouv/repo-falcon/releases/download/v0.6.1/falcon-linux-amd64"
-      sha256 "57751ac9bd91c3a4846cbde578ca2df6ee97c3c1a7fad9f7a5f12bffb81ab106"
+      url "https://github.com/SocialGouv/repo-falcon/releases/download/v0.6.2/falcon-linux-amd64"
+      sha256 "8e734f149e056e72dd27d920ee0ccbe67f7d2a4f1af808d425c88bec777f2eab"
     end
   end
 
